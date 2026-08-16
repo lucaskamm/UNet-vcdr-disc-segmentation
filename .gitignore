@@ -1,0 +1,43 @@
+# Python & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Datasets & Temporary Data
+data/
+datasets/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.bmp
+*.npy
+*.npz
+
+# Weights & Checkpoints (U-Net)
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.bin
+checkpoints/
+weights/
+
+# Logs & Visualization Outputs
+logs/
+*.log
+runs/
+wandb/
+results/
+outputs/
+
+# IDE & OS Settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
